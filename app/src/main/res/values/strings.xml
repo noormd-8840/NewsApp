@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="ndtv">NDTV</string>
+    <string name="lallantop">LALLANTOP</string>
+    <string name="bbc_news">BBC NEWS</string>
+    <string name="ndtv_news">NDTV NEWS</string>
+    <string name="lallantop_news">LALLANTOP NEWS</string>
+    <string name="news24">NEWS24</string>
+    <string name="aajtak_new">AAJTAK NEW</string>
+    <string name="new_york_times">New York Times</string>
+    <string name="upcomming">UpComming</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aajtak_news">AAJTAK NEWS</string>
+    <string name="News24">News24</string>
+    <string name="Aajtak_news">Aajtak_news</string>
+</resources>

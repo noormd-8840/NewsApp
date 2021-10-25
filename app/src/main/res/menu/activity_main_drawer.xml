@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ndtv_logo"
+            android:menuCategory="secondary"
+            android:title="@string/ndtv_news" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/lallantop_logo"
+            android:menuCategory="secondary"
+            android:title="@string/lallantop_news" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/bbc_news_logo"
+            android:menuCategory="secondary"
+            android:title="@string/bbc_news" />
+
+        <item
+            android:id="@+id/new24Fragment"
+            android:icon="@drawable/news24_logo"
+            android:menuCategory="secondary"
+            android:title="@string/news24" />
+
+        <item
+            android:id="@+id/aajtakFragment"
+            android:icon="@drawable/aajtak_logo"
+            android:menuCategory="secondary"
+            android:title="@string/aajtak_new" />
+
+    </group>
+
+    <item
+        android:menuCategory="secondary"
+        android:title="@string/upcomming">
+
+        <menu>
+            <item
+                android:id="@+id/newYourkTimes"
+                android:icon="@drawable/new_york_time_logo"
+                android:menuCategory="secondary"
+                android:title="@string/new_york_times" />
+
+        </menu>
+    </item>
+</menu>

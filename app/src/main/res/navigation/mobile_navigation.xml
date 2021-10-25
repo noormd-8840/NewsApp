@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newsapp.ui.NDTV.HomeFragment"
+        android:label="@string/ndtv_news"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_new24Fragment"
+            app:destination="@id/new24Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newsapp.ui.LallonTop.GalleryFragment"
+        android:label="@string/lallantop_news"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newsapp.ui.BBC.SlideshowFragment"
+        android:label="@string/bbc_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/new24Fragment"
+        android:name="com.example.newsapp.Fragments.New24Fragment"
+        android:label="@string/News24"
+        tools:layout="@layout/fragment_new24" />
+    <fragment
+        android:id="@+id/aajtakFragment"
+        android:name="com.example.newsapp.Fragments.AajtakFragment"
+        android:label="@string/Aajtak_news"
+        tools:layout="@layout/fragment_aajtak" />
+</navigation>
